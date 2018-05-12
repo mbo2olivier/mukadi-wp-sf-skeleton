@@ -8,4 +8,8 @@ cache:
 group: stable
 script:
     - composer install
+    - ls -la
+    - cat config/routes.yaml
+    - cat public/index.php
+    - cat .env
 language: php
