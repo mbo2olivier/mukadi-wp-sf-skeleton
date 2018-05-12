@@ -62,9 +62,8 @@
         "post-update-cmd": [
             "@auto-scripts"
         ],
-        "post-root-package-install": [
-            "@php -r \"file_put_contents('public/index.php',file_get_content('sf-wp-bootstrap.php'));\"",
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        "post-create-project-cmd": [
+            "@php -r \"file_put_contents('public/index.php',file_get_contents('sf-wp-bootstrap.php'));\""
         ]
     },
     "conflict": {
