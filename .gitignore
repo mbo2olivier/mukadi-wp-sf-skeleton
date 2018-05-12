@@ -1,0 +1,9 @@
+
+###> mukadi/wordpress-bundle ###
+/public/wp-*/
+/public/wp-*
+/public/xmlrpc.php
+/public/composer.json
+/public/readme.html
+/public/license.txt
+###< mukadi/wordpress-bundle ###

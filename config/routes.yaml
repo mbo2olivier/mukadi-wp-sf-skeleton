@@ -1,0 +1,2 @@
+mukadi_wordpress:
+    resource: "@MukadiWordpressBundle/Resources/config/routing.xml"

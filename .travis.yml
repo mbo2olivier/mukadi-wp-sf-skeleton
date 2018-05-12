@@ -1,0 +1,11 @@
+os: linux
+php: 7.1
+dist: trusty
+sudo: false
+cache:
+    directories:
+        - $HOME/.composer/cache/files
+group: stable
+script:
+    - composer install
+language: php
